@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         currentIndex: _currentIndex,
         onTap: _onTap,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.schedule), label: '일s정'),
+          BottomNavigationBarItem(icon: Icon(Icons.schedule), label: '일정'),
           BottomNavigationBarItem(icon: Icon(Icons.leaderboard), label: '순위'),
           BottomNavigationBarItem(icon: Icon(Icons.forum), label: '게시판'),
           BottomNavigationBarItem(icon: Icon(Icons.info), label: '정보'),
