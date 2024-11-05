@@ -120,7 +120,7 @@ class _ChatingPageState extends State<ChatingPage> {
         decoration: BoxDecoration(
           color: Colors.white,
           border: Border.all(color: Color(0xFF37003C), width: 1), // #37003C로 변경
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(21),
         ),
         child: Text(
           message,
