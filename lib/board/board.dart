@@ -17,7 +17,7 @@ class _BoardPageState extends State<BoardPage> {
     },
     {
       'username': 'User2',
-      'title': '두 번째 게시글',
+      'title': '두 번째 게시글2',
       'commentCount': 3,
       'timestamp': '2024-11-05 11:00',
     },
