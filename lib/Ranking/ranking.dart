@@ -128,7 +128,7 @@ class PlayerRankingView extends StatelessWidget {
                       ),
                       SizedBox(height: 5),
                       Text('도움'),
-                      Text('사카 - 7도움'),
+                      Text('사카 - 8도움'),
                       
                     ],
                   ),
