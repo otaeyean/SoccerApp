@@ -23,7 +23,7 @@ class SchedulePage extends StatelessWidget {
               ),
               SizedBox(width: 13),
               Padding(
-                padding: EdgeInsets.only(top: 10), // 여기서 상단 마진 10 추가
+                padding: EdgeInsets.only(top: 10),
                 child: Text(
                   '11.05(화)',
                   style: TextStyle(
