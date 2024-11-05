@@ -51,23 +51,29 @@ class _BoardPageState extends State<BoardPage> {
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
-            child: ListTile(
-              title: Text(
-                posts[index]['title'],
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), // 제목 글자 크기 증가
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12.0),
               ),
-              subtitle: Text(
-                '${posts[index]['username']} • 댓글 ${posts[index]['commentCount']}개 • ${posts[index]['timestamp']}',
-                style: TextStyle(fontSize: 14, color: Colors.grey), // 부제목 글자 크기 축소 및 색상 설정
+              child: ListTile(
+                title: Text(
+                  posts[index]['title'],
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), // 제목 글자 크기 증가
+                ),
+                subtitle: Text(
+                  '${posts[index]['username']} • 댓글 ${posts[index]['commentCount']}개 • ${posts[index]['timestamp']}',
+                  style: TextStyle(fontSize: 14, color: Colors.grey), // 부제목 글자 크기 축소 및 색상 설정
+                ),
+                trailing: Icon(Icons.arrow_forward_ios, size: 16, color: Colors.grey), // 화살표 추가
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PostDetailPage(post: posts[index]),
+                    ),
+                  );
+                },
               ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PostDetailPage(post: posts[index]),
-                  ),
-                );
-              },
             ),
           );
         },
