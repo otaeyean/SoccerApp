@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'ranking.dart';
-import 'board.dart';
+import 'Ranking/ranking.dart';
+import 'board/board.dart';
 import 'info.dart';
 import 'customization.dart';
 import 'schedule.dart';
