@@ -4,7 +4,7 @@ class CustomizationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('맞춤화 Page'),
+      child: Text('맞춤화'),
     );
   }
 }
