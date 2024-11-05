@@ -11,7 +11,7 @@ class _BoardPageState extends State<BoardPage> {
   List<Map<String, dynamic>> posts = [
     {
       'username': 'User1',
-      'title': '첫 번째 게시글',
+      'title': '첫 번째 게시글1',
       'commentCount': 5,
       'timestamp': '2024-11-05 10:00',
     },
