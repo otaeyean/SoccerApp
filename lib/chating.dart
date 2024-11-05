@@ -9,7 +9,7 @@ class _ChatingPageState extends State<ChatingPage> {
   final TextEditingController _messageController = TextEditingController();
   final List<String> _messages = []; // 문자 중계 메시지 목록
   final List<String> _chatMessages = []; // 채팅 메시지 목록
-//변경
+//변경하세요
   @override
   void initState() {
     super.initState();
