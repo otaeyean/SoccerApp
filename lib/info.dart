@@ -38,7 +38,7 @@ class _InfoPageState extends State<InfoPage> {
     'position': '공격수',
     'birthday': '1992.07.08',
     'height': '183cm',
-    'weight': '78kg',
+    'weight': '77kg',
   },
   ];
 
